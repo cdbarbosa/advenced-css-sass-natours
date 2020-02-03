@@ -4,7 +4,8 @@
   "description": "### Video Aula na udemy do básico para o avançado sobre como usar o CSS e o SASS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cdbarbosa/advenced-css-sass/issues"
   },
-  "homepage": "https://github.com/cdbarbosa/advenced-css-sass#readme"
+  "homepage": "https://github.com/cdbarbosa/advenced-css-sass#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
 }
