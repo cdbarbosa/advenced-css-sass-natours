@@ -1,0 +1,19 @@
+{
+  "name": "udemy",
+  "version": "1.0.0",
+  "description": "### Video Aula na udemy do básico para o avançado sobre como usar o CSS e o SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdbarbosa/advenced-css-sass.git"
+  },
+  "author": "Camila Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdbarbosa/advenced-css-sass/issues"
+  },
+  "homepage": "https://github.com/cdbarbosa/advenced-css-sass#readme"
+}
