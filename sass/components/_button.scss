@@ -19,6 +19,7 @@
       background-color: $color-primary;
     }
   }
+  &,
   &:link,
   &:visited {
     text-transform: uppercase;
@@ -28,6 +29,8 @@
     border-radius: 10rem;
     transition: all 0.2s;
     position: relative;
+    border: none;
+    cursor: pointer;
   }
   &:hover {
     transform: translateY(-3px);
@@ -38,7 +41,9 @@
     }
   }
 
-  &:active {
+  &:active,
+  &:focus {
+    outline: none;
     transform: translateY(-1px);
     box-shadow: 0 5px 1rem rgba($color-black, 0.2);
   }
