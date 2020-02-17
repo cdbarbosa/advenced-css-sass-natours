@@ -17,11 +17,13 @@
 @import "./components/story";
 @import "./components/bg-video";
 @import "./components/form";
+@import "./components/popoup";
 
 // Layout
 @import "./layout/grid";
 @import "./layout/header";
 @import "./layout/footer";
+@import "./layout/navigation";
 
 // Pages
 @import "./pages/home";
