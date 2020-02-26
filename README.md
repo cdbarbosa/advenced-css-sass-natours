@@ -1,3 +1,5 @@
-# CSS e SASS avançado
+# Projeto Natours
 
-### Video Aula na udemy do básico para o avançado sobre como usar o CSS e o SASS
+### Este projeto foi realizado a partir da video aula da udemy, cujo foi implementado uma simples tela utilizando SASS.
+
+
